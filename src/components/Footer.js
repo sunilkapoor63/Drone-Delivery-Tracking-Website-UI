@@ -53,7 +53,7 @@ function Footer() {
           <option value="en">English</option>
           <option value="de">Deutsch</option>
         </select>
-        <p>© </p>
+        <p>© Designed by Sunil Kapoor</p>
       </div>
     </footer>
   );
