@@ -1,0 +1,28 @@
+.DeliveryStatus {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .StatusDetails {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .DeliveryStatus {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  
+    .StatusDetails {
+      font-size: 14px;
+    }
+  }
+  

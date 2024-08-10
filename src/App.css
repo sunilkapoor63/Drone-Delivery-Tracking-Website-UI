@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.MainContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.LowerSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px; /* Add some space between map and lower section */
+}
+
+.LowerSection > div {
+  flex: 1;
+  margin: 0 10px; /* Add space between Track Order and Delivery Status */
+}
+
+.LowerSection > div:first-child {
+  margin-left: 0;
+}
+
+.LowerSection > div:last-child {
+  margin-right: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .MainContent {
+    padding: 0;
+  }
+
+  .LowerSection {
+    flex-direction: column;
+  }
+}
